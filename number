@@ -1,3 +1,0 @@
-age = 26
-message = "It's my old " + str(age) + "!"
-print(message)
