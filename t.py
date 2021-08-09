@@ -1,4 +1,13 @@
-pizza = ['One', 'two', 'Three', 'four']
-print(pizza)
-pizza = [p.upper() for p in pizza]
-print(pizza)
+alies = []
+for a in range(0, 30):
+    new_glossary = {'color': 'green', 'points': 5}
+    alies.append(new_glossary)
+print(alies[:4])
+
+l = ['one', 'two', 'Three', 'a', 'c', 'x']
+l.sort()
+l1 = [v.title() for v in l[:]]
+
+
+
+print(l1)
