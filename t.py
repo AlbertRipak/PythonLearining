@@ -1,4 +1,4 @@
-alies = []
+'''alies = []
 for a in range(0, 30):
     new_glossary = {'color': 'green', 'points': 5}
     alies.append(new_glossary)
@@ -11,3 +11,9 @@ l1 = [v.title() for v in l[:]]
 
 
 print(l1)
+'''
+x = 0
+y = 10
+while x < y:
+    print(x, end = ' ')
+    x += 1
